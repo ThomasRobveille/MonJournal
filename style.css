@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+header{
+    border: 1px solid black;
+    background: #000000;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.presentation div{
+    width: 50%;
+    height: 200px;
+}
+
+.presentation_name{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caroussel{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projet{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+footer{
+    background: black;
+    color: white;
+}
